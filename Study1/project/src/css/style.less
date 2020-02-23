@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: 'Bad Script', cursive;
+
+}
+.slider {
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: 1px solid #000;
+    background-color: grey;
+    flex-basis: 25%;
+&:hover {
+    flex-basis: 50%;
+
+}
+}

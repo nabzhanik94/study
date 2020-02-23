@@ -1,0 +1,121 @@
+body {
+    background-image: url(/img/background-grid.jpg); 
+    max-width: 1350px;  
+    /* border: #304437 solid 10px;  */
+}
+html {
+    font-size: 10px;
+}
+.book-and-description {
+    display: flex;
+    justify-content: center;
+    width: 1350px;
+    margin: 0;
+    /* border: solid 1px black; */
+}
+.book {
+    padding: 8rem 8rem 10rem 12rem;
+}
+.description h1 {
+    font-size: 4.8rem;
+    font-weight: bold;
+    font-family: 'tahoma', serif;
+}
+.description span {
+    font-size: 3rem;
+    font-family: 'tahoma', serif;
+}
+.description p {
+    font-size: 1.8rem;
+    font-family: 'tahoma', sans-serif;
+}
+.description h3 {
+    font-size: 4.8rem;
+    font-weight: normal;    
+    font-family: 'tahoma', serif;
+}
+.buy-btn {
+    background-color: #f15921;
+    color: #fff;
+    font-size: 2.4rem;
+    font-weight: bold;
+    font-family: 'tahoma', serif;
+    padding: 2rem 5rem;
+    border-radius: 10px;
+    border: #f15921 solid 1px;
+    margin-right: 4rem;
+}
+.info-btn {
+    background-color: transparent;
+    color: #f15921;
+    font-size: 2.4rem;
+    font-weight: bold;
+    font-family: 'tahoma', serif;
+    padding: 2rem 5rem;
+    border-radius: 10px;
+    border: #f15921 solid 1px;
+    margin-right: 4rem;
+}
+.shipping-and-payment {
+    display: flex;
+    align-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 1350px;
+    margin: 0;
+    border: #f15921 solid 1px;
+    background: url(/img/bg.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+    
+}
+.text-shipping-and-payment {
+    display: flex;
+    margin-top: 9rem;
+    margin-bottom: 9rem;
+}
+.text-shipping-and-payment h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'tahoma', serif;
+}
+.badges-shipping-and-payment {
+    display: flex;
+    /* border: #f15921 solid 1px;     */
+}
+.badges-shipping-and-payment span {
+    padding-top: 2rem;
+}
+.free-ship {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.8rem;
+    font-family: 'opensans', sans-serif;
+    padding-right: 8rem;
+    padding-bottom: 10rem;
+    
+}
+.pay-online {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.8rem;
+    font-family: 'opensans', sans-serif;
+    padding-right: 8rem;
+    padding-bottom: 10rem;
+}
+.express-delivery {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.8rem;
+    font-family: 'opensans', sans-serif;
+    padding-right: 8rem;
+    padding-bottom: 10rem;
+}
+.russian-post {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.8rem;
+    font-family: 'opensans', sans-serif;
+    padding-right: 8rem;
+    padding-bottom: 10rem;
+}

@@ -1,0 +1,75 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-family: 'Bad Script', cursive;
+}
+.slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  background-color: grey;
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.item:hover {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+}
+.item-1 {
+  background: url(../img/1.JPG) no-repeat center center;
+  background-size: cover;
+}
+.item-2 {
+  background: url(../img/2.JPG) no-repeat center center;
+  background-size: cover;
+}
+.item-3 {
+  background: url(../img/3.JPG) no-repeat center center;
+  background-size: cover;
+}
+.item-4 {
+  background: url(../img/4.JPG) no-repeat center center;
+  background-size: cover;
+}
+@media (max-width: 640px) {
+  .slider {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    height: 100vh;
+  }
+  .item {
+    width: 100%;
+  }
+  .item:hover {
+    -webkit-box-flex: 30%;
+        -ms-flex-positive: 30%;
+            flex-grow: 30%;
+  }
+}
