@@ -4,7 +4,7 @@
     "sources": [
         "style.sass",
         "_colors.sass",
-        "_font.scss",
+        "_fonts.scss",
         "_interface.sass",
         "blocks/_navbar.sass",
         "blocks/_hero.sass"
