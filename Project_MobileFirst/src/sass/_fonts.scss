@@ -7,6 +7,7 @@
     font-weight: normal;
     font-style: normal;
     } 
+
 @font-face {
     font-family: 'Museo Sans Bold';
     src: url('../fonts/MuseoSansCyrl/MuseoSansCyrl-700.eot');
@@ -16,3 +17,13 @@
     font-weight: normal;
     font-style: normal;
     }
+
+@mixin reg {
+    font-family: 'Museo Sans Light', sans-serif;
+    font-weight: 300;
+}
+
+@mixin bold {
+    font-family: 'Museo Sans Bold', sans-serif;
+    font-weight: 700;
+}

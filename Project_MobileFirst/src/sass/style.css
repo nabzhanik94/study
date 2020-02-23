@@ -15,7 +15,8 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Museo Sans Light', sans-serif;
+  font-weight: 300;
 }
 
 img {
@@ -90,6 +91,8 @@ img {
 .navbar__phone {
   display: inline-block;
   color: #333333;
+  font-family: 'Museo Sans Bold', sans-serif;
+  font-weight: 700;
   font-size: 20px;
   font-weight: 400;
   text-decoration: none;
@@ -130,7 +133,8 @@ img {
   font-weight: 800;
   line-height: 55px;
   margin-bottom: 40px;
-  font-family: 'Museo Sans Bold';
+  font-family: 'Museo Sans Bold', sans-serif;
+  font-weight: 700;
 }
 
 .hero-text__subtitle {
