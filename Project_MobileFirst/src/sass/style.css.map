@@ -6,7 +6,8 @@
         "_colors.sass",
         "_interface.sass",
         "blocks/_navbar.sass",
-        "blocks/_hero.sass"
+        "blocks/_hero.sass",
+        "_fonts.sass"
     ],
     "names": [],
     "file": "style.css"
