@@ -242,6 +242,17 @@ img {
       flex-wrap: wrap;
 }
 
+@media (max-width: 770px) {
+  .cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 .navbar {
   padding: 8px 0;
 }
