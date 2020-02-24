@@ -118,7 +118,7 @@ img {
 }
 
 .portfolio {
-  background: #f5f5f5 url("../../img/portfolio.jpg") repeat-y center left;
+  background: #f5f5f5 url("/Project_MobileFirst/src/img/portfolio/bg-port.jpg") repeat-y center left;
   background-size: 50%;
 }
 
