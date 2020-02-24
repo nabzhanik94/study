@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/Project_MobileFirst/src/css/normalyze.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- <link rel="stylesheet" href="css/slick-theme.css"> -->
     <link rel="stylesheet" href="/Project_MobileFirst/src/sass/style.css">
     <title>Document</title>
 </head>
@@ -80,6 +82,32 @@
                 </div>
             </div>
         </section>
+
+        <section class="section portfolio">
+            <div class="container">
+                <h2 class="section-title portfolio__title">
+                    Работая с 2007 года, мы сделали более 500 ремонтов в квартирах и домах
+                </h2>
+                <div class="slider">
+                    <div class="slider__item"><img class="slider__image" src="img/portfolio/slider-1.jpg" alt=""></div>
+                    <div class="slider__item"><img class="slider__image" src="img/portfolio/slider-2.jpg" alt=""></div>
+                    <div class="slider__item"><img class="slider__image" src="img/portfolio/slider-3.jpg" alt=""></div>
+                    <div class="slider__item"><img class="slider__image" src="img/portfolio/slider-1.jpg" alt=""></div>
+                    <div class="slider__item"><img class="slider__image" src="img/portfolio/slider-2.jpg" alt=""></div>
+                    <div class="slider__item"><img class="slider__image" src="img/portfolio/slider-3.jpg" alt=""></div>
+                </div>
+                <div class="arrows portfolio__arrows">
+                    <div class="arrows__left">
+                        <img src="../src/img/portfolio/left-arrow.png" alt="">
+                    </div>
+                    <div class="arrows__right">
+                        <img src="../src/img/portfolio/right-arrow.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
     </main>
     <div class="modal" id="modal">
         <div class="modal-dialog">
@@ -89,7 +117,35 @@
     </div>
 
 
-
+    <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.slider').slick({
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                prevArrow: $('.arrows__left'),
+                nextArrow: $('.arrows__right'),
+                responsive: [
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 770,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+                
+                ]
+            });
+        });
+    </script>
 </body>
 </html>
