@@ -1,5 +1,6 @@
 .footer
     position: relative
+    // display: flex
 .map
     position: absolute
     left: 0
@@ -7,14 +8,48 @@
     width: 50%
 .contacts
     flex-basis: 50%
-    padding-top: 100px
+    // padding-top: 100px
     padding-left: 210px
-    &__title
-        max-width: 293px
+    &__title        
         +bold
         font-size: 22px
         line-height: 1.4
+        margin-bottom: 100px
     &-block
         display: flex
         justify-content: flex-end
+    &-list
+        padding: 0
+        list-style: none
+        &__icon
+            width: 20px
+            height: 20px
+            // line-height: 20
+            text-align: center
+            margin-right: 23px
+        &__item
+            display: flex
+            align-items: flex-start
+            margin-bottom: 39px
+        &__a
+            text-decoration: none
+            +bold
+            color: #000000
+@media (max-width: 768px)
+    .footer
+        display: flex        
+        flex-direction: column
+    // .map
+    //     display: block
+    //     width: 100%
+    // .contacts
+    //     position: relative
+    //     flex-basis: 100%
+    //     margin-bottom: 10px
+
+
+    
+
         
+
+
