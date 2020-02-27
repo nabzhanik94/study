@@ -37,15 +37,28 @@
             color: #000000
 @media (max-width: 768px)
     .footer
-        display: flex        
-        flex-direction: column
-    // .map
-    //     display: block
-    //     width: 100%
-    // .contacts
-    //     position: relative
-    //     flex-basis: 100%
-    //     margin-bottom: 10px
+        padding: 0   
+        display: flex   
+        flex-direction: column  
+    .map
+        position: relative
+        // bottom: 0
+        width: 100%
+        height: 50%
+        order: 2
+                
+    .contacts
+        padding-left: 30px
+        &-block
+            position: relative
+            // top: 0
+            width: 100%
+            height: 50%
+            order: 1
+            justify-content: center
+    
+
+       
 
 
     
